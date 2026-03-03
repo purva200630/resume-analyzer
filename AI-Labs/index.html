@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="cursor-glow"></div>
+
+    <nav class="navbar">
+        <div class="logo" id="nav-name">Portfolio</div>
+        <div class="nav-links">
+            <a href="#hero" class="active">Home</a>
+            <a href="#skills">Skills</a>
+            <a href="#experience">Experience</a>
+            <a href="#projects">Projects</a>
+            <button id="theme-toggle" aria-label="Toggle Dark Mode">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+        <div class="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <header id="hero" class="hero-section">
+        <div class="hero-content scroll-reveal">
+            <h1 id="hero-name">Loading...</h1>
+            <h2 id="hero-headline" class="gradient-text">Please wait</h2>
+            <p id="hero-location"><i class="fas fa-map-marker-alt"></i> <span></span></p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn btn-primary">Contact Me</a>
+                <div id="social-links" class="social-icons">
+                    <!-- Icons injected by JS -->
+                </div>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="blob blob-1"></div>
+            <div class="blob blob-2"></div>
+        </div>
+    </header>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <p id="about-text" class="scroll-reveal">
+                <!-- Injected via JS -->
+            </p>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div id="skills-container" class="skills-grid scroll-reveal">
+                <!-- Pills injected via JS -->
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="section bg-alt">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div id="experience-container" class="timeline">
+                <!-- Cards injected via JS -->
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div id="projects-container" class="projects-grid">
+                <!-- Cards injected via JS -->
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section bg-alt">
+        <div class="container contact-container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-wrapper scroll-reveal">
+                <p>Have a project in mind or just want to say hi?</p>
+                <div class="contact-actions">
+                    <button id="contact-btn" class="btn btn-primary btn-lg">
+                        Contact Me <i class="fas fa-paper-plane"></i>
+                    </button>
+                    <p class="email-display" id="contact-email"></p>
+                </div>
+                <!-- Hidden iframe container -->
+                <div id="form-container" class="form-popup hidden">
+                    <div class="form-header">
+                        <h3>Contact Form</h3>
+                        <button id="close-form"><i class="fas fa-times"></i></button>
+                    </div>
+                    <div id="iframe-wrapper"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; <span id="year"></span> <span id="footer-name"></span>. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

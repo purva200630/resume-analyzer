@@ -1,0 +1,37 @@
+{
+    "name": "Purva Popli",
+    "headline": "Vellore Institute of Technology | Intern at FOSSE-IIT BOMBAY | E-Cell VIT.",
+    "location": "Amravati, Maharashtra, India",
+    "email": "purvapopli1@gmail.com",
+    "links": {
+        "linkedin": "www.linkedin.com/in/purva-popli-444b3533b",
+        "instagram": "",
+        "topmate": "",
+        "github": ""
+    },
+    "about": "",
+    "skills": [
+        "Microsoft Excel",
+        "Python (Programming Language)",
+        "Inkscape"
+    ],
+    "experience": [
+        {
+            "company": "E-Cell, VIT Bhopal",
+            "title": "Corporate and Outreach Member",
+            "dates": "December 2025\u00a0-\u00a0Present\u00a0(2 months)",
+            "bullets": []
+        },
+        {
+            "company": "FOSSEE",
+            "title": "Intern",
+            "dates": "October 2025\u00a0-\u00a0Present\u00a0(4 months)",
+            "bullets": []
+        }
+    ],
+    "projects": [],
+    "education": [
+        "Vellore Institute of Technology \u00b7\u00a0(2024\u00a0-\u00a02028)"
+    ],
+    "certifications": []
+}
